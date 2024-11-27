@@ -12,7 +12,7 @@ function Books() {
 
   return (
     <div>
-      <h1>Dr. Seuss Books</h1>
+      <h1>Seuss Books Treasury</h1>
       <div style={{ display: "flex", flexWrap: "wrap" }}>
         {books.map((book) => (
           <div key={book.id} style={{ margin: "10px" }}>
